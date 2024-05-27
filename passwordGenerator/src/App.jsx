@@ -13,7 +13,7 @@ function App() {
     let pass = "";
     let str = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
     if (numAllowed) str += "0123456789";
-    if (charAllowed) str += "!@#$%&*"; // for generating special char
+    if (charAllowed) str += "!@#$%&*"; // for generating special characters 
 
     for (let i = 1; i < length; i++) {
       let char = Math.floor(Math.random() * str.length + 1); //  it will generate random value of array
